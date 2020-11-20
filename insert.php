@@ -23,5 +23,9 @@ if (mysqli_query($conn, $sql)) {
   }
   
 mysqli_close($conn);
-<a href="https://kantawit.azurewebsites.net/show.php">back to show</a>
 ?>
+<html>
+    <body>
+    <a href="https://kantawit.azurewebsites.net/show.php">back to show</a>
+    </body>
+</html>
