@@ -30,7 +30,7 @@ while($Result = mysqli_fetch_array($res))
     <td><?php echo $Result['link'];?></td>
     <td><?php echo '<a href="delete.php?id='.$Result['id'].'">
 Delete</a>'?></td>
-    <td><?php echo '<a href="insert_new.php?id='.$Result['id'].'">
+    <td><?php echo '<a href="insert.php?id='.$Result['id'].'">
 Update</a>'?></td>
 
   </tr>
