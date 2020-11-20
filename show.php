@@ -37,5 +37,6 @@ Delete</a>'?></td>
 <?php
 mysqli_close($conn);
 ?>
+<a href="https://kantawit.azurewebsites.net/form.html">This is a Lick</a>
 </body>
 </html>
